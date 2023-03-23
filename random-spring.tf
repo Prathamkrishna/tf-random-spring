@@ -1,6 +1,6 @@
 resource "docker_container" "spring-test" {
     name = var.container_name
-    image = "spring-test:latest"
+    image = "spring-test-jenkins:latest"
     ports {
       internal = "8080"
       external = "8081"
